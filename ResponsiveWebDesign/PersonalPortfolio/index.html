@@ -1,0 +1,77 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+</head>
+
+
+<style>
+    @media (max-height:800px) {
+        p {
+            font-size: 10px;
+        }
+    }
+
+    section {
+        height: 100vh;
+    }
+</style>
+<script>
+    /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+    function navbaropen() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+
+</script>
+
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <navbar id="navbar" class="nav">
+
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <a href="#home" class="active">Logo</a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="#welcome-section">Welcome Section</a>
+                <a href="#projects">Projects</a>
+                <a href="#about">About me</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="navbaropen()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </navbar>
+
+    <section id="welcome-section">
+        <h1>.Net Developer</h1>
+        <br></br>
+        <p>Salih Dilsiz</p>
+    </section>
+    <section id="projects">
+        <h2 id="project-tile"></h2>
+        <div class="project-tile">
+            <a href="https://codepen.io/dilsiz/pen/RERGYR">Emmett Brown Biography</a>
+            <a href="https://codepen.io/dilsiz/pen/GRpxJyW">Technical Document</a>
+            <a href="https://codepen.io/dilsiz/details/yGBvzq">Survey Form</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <a id="profile-link" href="https://github.com/sdilsiz" target="_blank">GitHub</a>
+        <a href="https://twitter.com/salihdilsiz01" target="_blank">Twitter</a>
+        <!-- profile-link -->
+    </section>
+
+
+</body>
+
+</html>
