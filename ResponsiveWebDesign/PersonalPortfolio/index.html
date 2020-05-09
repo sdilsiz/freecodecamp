@@ -4,6 +4,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
 </head>
 
 
@@ -28,17 +30,24 @@
             x.style.display = "block";
         }
     }
-
+ 
 </script>
 
 <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://kit.fontawesome.com/d25356b639.js" crossorigin="anonymous"></script>
     <navbar id="navbar" class="nav">
 
         <!-- Top Navigation Menu -->
         <div class="topnav">
-            <a href="#home" class="active">Logo</a>
-            <!-- Navigation links (hidden by default) -->
+            <div class="profile-links">
+                <a href="https://github.com/sdilsiz" target="_blank"></a>
+
+
+                <a href="#home" class="active"><i class="fab fa-github"></i></a>
+                <!-- Navigation links (hidden by default) -->
+
+            </div>
             <div id="myLinks">
                 <a href="#welcome-section">Welcome Section</a>
                 <a href="#projects">Projects</a>
@@ -53,15 +62,68 @@
 
     <section id="welcome-section">
         <h1>.Net Developer</h1>
-        <br></br>
+        <br />
         <p>Salih Dilsiz</p>
     </section>
     <section id="projects">
-        <h2 id="project-tile"></h2>
+        <!-- <h1> Projects </h1> -->
+        <h2 id="project-tile"> Projects </h2>
         <div class="project-tile">
-            <a href="https://codepen.io/dilsiz/pen/RERGYR">Emmett Brown Biography</a>
-            <a href="https://codepen.io/dilsiz/pen/GRpxJyW">Technical Document</a>
-            <a href="https://codepen.io/dilsiz/details/yGBvzq">Survey Form</a>
+            <div class="project-tile">
+                <a href="https://codepen.io/dilsiz/pen/RERGYR"></a>
+                <a href="https://codepen.io/dilsiz/pen/GRpxJyW"></a>
+                <a href="https://codepen.io/dilsiz/details/yGBvzq"></a>
+            </div>
+
+
+        </div>
+
+        <div class="grid-container">
+            <div class="row">
+                <div class="column">
+
+                    <iframe height="265" style="width: 100%;" scrolling="no" title="TechnicalDocumentationPage"
+                        src="https://codepen.io/dilsiz/embed/preview/GRpxJyW?height=265&theme-id=light&default-tab=html,result"
+                        frameborder="no" allowtransparency="true" allowfullscreen="true">
+                        See the Pen <a href='https://codepen.io/dilsiz/pen/GRpxJyW'>TechnicalDocumentationPage</a>
+                        by
+                        salih
+                        (<a href='https://codepen.io/dilsiz'>@dilsiz</a>) on <a
+                            href='https://codepen.io'>CodePen</a>.
+                    </iframe>
+                </div>
+                <div class="column">
+
+                    <iframe height="265" style="width: 100%;" scrolling="no"
+                        title="Responsive Web Design Projects - Build a Survey Form "
+                        src="https://codepen.io/dilsiz/embed/preview/yGBvzq?height=265&theme-id=light&default-tab=html,result"
+                        frameborder="no" allowtransparency="true" allowfullscreen="true">
+                        See the Pen <a href='https://codepen.io/dilsiz/pen/yGBvzq'>Responsive Web Design Projects -
+                            Build a Survey Form </a> by salih
+                        (<a href='https://codepen.io/dilsiz'>@dilsiz</a>) on <a
+                            href='https://codepen.io'>CodePen</a>.
+                    </iframe>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+
+                    <iframe height="265" style="width: 100%;" scrolling="no" title="RERGYR"
+                        src="https://codepen.io/dilsiz/embed/preview/RERGYR?height=265&theme-id=light&default-tab=html,result"
+                        frameborder="no" allowtransparency="true" allowfullscreen="true">
+                        See the Pen <a href='https://codepen.io/dilsiz/pen/RERGYR'>RERGYR</a> by salih
+                        (<a href='https://codepen.io/dilsiz'>@dilsiz</a>) on <a
+                            href='https://codepen.io'>CodePen</a>.
+                    </iframe>
+                </div>
+                <div class="column"> </div>
+            </div>
+        </div>
+        <!-- <h2 id="project-tile"></h2>
+ <div class="project-tile"> -->
+
+
+
         </div>
     </section>
 
