@@ -18,7 +18,8 @@ function pairwise(arr, arg) {
                 // console.log("toplam esit cikti y "+y+" deger "+arr[y]+" x " 
                 // +x+" deger "+arr[x])
                 total+=parseInt(y);
-                total+=parseInt(x);
+              total += parseInt(x); 
+
                 
 
             // if(array.indexOf(x+y) !== -1||array.indexOf(y+x) !== -1){
