@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\coding-interview-prep",
     "\\front-end-libraries",
-    "\\Javascript_Algorithms_And_Data_Structures"
+    "\\Javascript_Algorithms_And_Data_Structures",
+    "\\ResponsiveWebDesign"
   ],
-  "SelectedNode": "\\front-end-libraries\\React",
+  "SelectedNode": "\\front-end-libraries\\Temp",
   "PreviewInSolutionExplorer": false
 }
