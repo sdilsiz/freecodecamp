@@ -118,6 +118,55 @@ function LinkedList() {
     }
 
     this.addAt = function (index, newElement) {
-       
+
+        var newNode = new Node(newElement);
+        var currentNode = head;
+        var previousNode = head;
+        var currIndex = 0;
+        var isAdded = false;
+        while (currentNode.next) {
+            if (currIndex === index) {
+                if (currIndex == 0) {
+                    newNode.next = head;
+                    isAdded = true;
+                } else {
+                    newNode.next = currentNode.next;
+                    previousNode.next = newNode;
+                    isAdded = true;
+                }
+            }
+
+            if (isAdded) { length++; break; }
+            currIndex++;
+            previousNode = currentNode;
+            currentNode = currentNode.next;
+        }
+
+        return (isAdded) ? true : false;
+    }
+
+
+    this.print = function () {
+        var array = [];
+        if (head === null) {
+
+        } else {
+            var currentNode = head;
+            while (currentNode != null) {
+                array.push(currentNode.element);
+                console.log(currentNode.element);
+                currentNode = currentNode.next;
+            }
+        }
+        return array;
     }
 }
+
+var newList = new LinkedList();
+// console.log(newList.size());
+newList.add("a");
+newList.add("b");
+newList.add("c");
+newList.add("d");
+// console.log(newList.size());
+console.log(newList.print());
