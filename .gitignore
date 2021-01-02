@@ -11,4 +11,5 @@
 .vs/slnx.sqlite
 .vs/VSWorkspaceState.json
 /node_modules
-/__pycache__
+.__pycache__
+.pyc
