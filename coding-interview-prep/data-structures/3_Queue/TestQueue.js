@@ -48,6 +48,6 @@ var showState = function() {
   
   function showState() {
     console.log("Ready");
-  } 
+  }   
   
   showState();            // output: Idle
