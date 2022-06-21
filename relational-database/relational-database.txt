@@ -1,0 +1,41 @@
+
+Learn Bash by Building a Boilerplate
+echo hello terminal 
+pwd 
+ls
+cd 
+cd..
+more 'filename' -> you can see what is inside the file
+clear -> ctrl+ l
+ls -1 -> show details 
+mkdir --> make directory
+touch --> create a file --> touch index.html
+command --help 
+ls --all
+cp <file> <destination> --> copy file to destination
+rm --> remove file 
+mv <filename> <new_filename>
+find 
+find -name <filename>/<directoryname>
+mkdir <basedirectory>/<subdirectory>
+rmdir -> remove directory 
+rm -->with -r flag ->remove directories and their contents recursively
+echo text >> filename
+
+
+Learn Relational Databases by Building a Mario Database
+
+psql --username=freecodecamp dbname=postgres ---> open psql 
+\l -> list of database
+CREATE DATABASE database_name;
+\c databasename -> connecting to database 
+\d list of tables
+CREATE TABLE first_table(); 
+\d tablename --> details about table 
+ALTER TABLE table_name ADD COLUMN column_name TYPE;
+
+ 
+
+
+
+
