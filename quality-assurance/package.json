@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "chai": "^4.2.0",
-    "chai-http": "^4.3.0",
+    "chai": "^4.4.1",
+    "chai-http": "^4.4.0",
     "zombie": "^6.1.4"
   }
 }
